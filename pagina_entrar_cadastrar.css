@@ -1,0 +1,264 @@
+body
+        {
+        width:100%; /*largura*/  
+        height:100vh; /*altura*/  
+        display: flex;
+        margin: 0px;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;   /*dsds*/     
+        }
+
+        .d1
+        {
+            width: 100%;
+            height: 125px;
+            background-image: url(fundo.png);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            justify-items: center;
+            align-content: center;
+            align-items: center;    
+            border: 1px black solid;
+        }
+         .d2
+        {
+            width: 90%;
+            height: 90px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+            align-content: center;
+            align-items: center;   
+        }
+         .dd1
+        {
+            width: 40px;
+            height: 40px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+            align-items: center;   
+            
+        }
+
+        .divp1
+        {
+            width: 100%;
+            height: 100vh; 
+            background-image: url(testedefundo.png);
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-content: center;
+            align-items: center; 
+        }
+        
+        .divp2
+        {
+            width: 80%;
+            height: 50px;
+            background-color: white;
+            font-size: 15px;
+           font-family: 'Roboto';
+            padding: auto; 
+            text-align: center; 
+            margin-top: 20px;
+
+        }
+        
+        .divp3{
+            width: 80%;
+            height: 50px; 
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-content: center;
+            align-items: center; 
+            margin-top: 20px;
+            
+
+        }
+
+        .divp4
+        {
+            width: 100%;
+            height: 100px;
+            font-size: 18px;
+           font-family: 'Roboto';
+            padding: auto; 
+            text-align: center; 
+            flex-direction: column;
+            justify-items: center;
+            align-content: center;
+            align-items: center; 
+            background-color: white;
+            
+        }
+
+        .divp5
+        {
+            width: 100%;
+            height: 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+        }
+
+        .botao
+        {
+            width: 100%;
+            height: 100px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+            align-content: center;
+            align-items: center; 
+            font-size: 10px;
+           font-family: 'Roboto';
+            padding: auto; 
+            text-align: center; 
+            border-radius: 20px; 
+
+        }
+
+        .esquecisenha
+        {
+            background-color: white;
+            font-size: 15px;
+           font-family: 'Roboto';
+            padding: auto; 
+            text-align: center; 
+            
+
+        }
+
+        .verde
+        {
+            background-color: lightgreen;
+            border: 2px outset green;
+            border-radius: 20px;
+            height: 30px;
+            font-family: 'Roboto';
+            padding: auto; 
+            text-align: center;
+            font-size: 18px;
+            height: 40px;
+            width: 130px;
+        }
+
+        .caixasenha
+        {
+            background-color: rgb(185, 236, 255);
+            border: 2px outset rgb(53, 155, 192);
+            border-radius: 20px;
+            height: 25px;
+            margin-top: 10px;
+        }
+        
+        a{text-decoration: none;
+            color: black;
+        }
+        .rodape
+        {
+            height: 125px;
+            width: 100%;
+            background-image: url(fundo.png);
+            border: 1px black solid;
+        }
+
+        .lateral
+        {
+            
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 150px;
+            height: 100%;
+            background-color: white;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        .lateral
+        {
+            width: 170px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            position: absolute;
+            left: -175px;
+           
+        }
+        .animar
+        {
+            animation: deslizar 2s forwards;
+        }
+        @keyframes deslizar
+        {
+            0%{left:-175px;}    
+            100%{left:0px;} 
+        }
+        .opcoes
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+        }
+        
+
+        .cadastro
+        {
+            width: 150px;
+            margin-top: 10px;
+            height: 40px;
+            background: rgb(185, 236, 255,0.8);
+            border-radius: 40px;
+            border: 2px outset rgb(138, 159, 216);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            margin-top: 20PX;
+            font-family: 'Roboto';
+            font-size: 17px;
+        }
+
+        .logo{
+            margin-top: 30px;
+        }
+
+        .fechar
+        {
+            width: 100px;
+            height: 25px;
+            margin-top: 30px;
+            border: 2px outset red;
+            background-color: lightcoral;
+            border-radius: 20px;
+            font-family: 'Roboto';
+            font-size: 18px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+
+        }

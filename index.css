@@ -1,0 +1,58 @@
+body{
+    background-image: url("fundo_da_animacao.png");
+    background-clip: border-box;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+} 
+
+.urso{
+    width:  350px;
+    animation: andando  4s ;
+    animation: jackInTheBox 2s;
+}
+
+@keyframes andando{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.titulo{
+    font-size: 40px;
+    width: 250px;
+    animation: jackInTheBox 2s;
+    
+    
+}
+
+ @keyframes titulo{}
+
+.pontinho{
+    animation:flash infinite alternate 2s;
+    font-size: 50px;
+    
+}
+.carregamento{
+    width: 20px;
+    position: absolute;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 8px solid rgb(255, 221, 0);
+    border-top: 8px solid transparent;
+    animation: loading 1s infinite linear;
+    top: 520px;
+}
+@keyframes loading{
+    0%{rotate: 0deg;}
+    100%{rotate: 360deg;}
+}
